@@ -125,8 +125,13 @@
               "devServerTarget": "demo-git:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "demo-git"
 }
